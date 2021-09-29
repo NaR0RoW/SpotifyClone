@@ -7,7 +7,6 @@ final class AuthManager {
     struct Constants {
         static let clientID = ""
         static let clientSecret = ""
-        static let tokenAPIURL = "https://accounts.spotify.com/api/token"
     }
     
     private init() {}
