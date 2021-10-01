@@ -31,6 +31,7 @@
 		4E61F05E2702413100FEF934 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E61F05D2702413100FEF934 /* Artist.swift */; };
 		4E61F0602702413C00FEF934 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E61F05F2702413C00FEF934 /* UserProfile.swift */; };
 		4E61F06227024C2500FEF934 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E61F06127024C2500FEF934 /* Extensions.swift */; };
+		4E77161527072F78009DEC08 /* SettingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E77161427072F78009DEC08 /* SettingsModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		4E61F05D2702413100FEF934 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		4E61F05F2702413C00FEF934 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		4E61F06127024C2500FEF934 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4E77161427072F78009DEC08 /* SettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				4E38119A27046E08009EE56D /* AuthResponse.swift */,
 				4E61F0592702411500FEF934 /* Playlist.swift */,
 				4E61F05F2702413C00FEF934 /* UserProfile.swift */,
+				4E77161427072F78009DEC08 /* SettingsModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				4E61F06227024C2500FEF934 /* Extensions.swift in Sources */,
 				4E61F04227023F9E00FEF934 /* LibraryViewController.swift in Sources */,
 				4E61F05E2702413100FEF934 /* Artist.swift in Sources */,
+				4E77161527072F78009DEC08 /* SettingsModels.swift in Sources */,
 				4E61F0502702400800FEF934 /* PlaylistViewController.swift in Sources */,
 				4E61F02627023D9A00FEF934 /* SceneDelegate.swift in Sources */,
 				4E61F04E2702400000FEF934 /* PlayerViewController.swift in Sources */,
