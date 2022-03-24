@@ -1,7 +1,7 @@
 import SDWebImage
 import UIKit
 
-class CategoryCollectionViewCell: UICollectionViewCell {
+final class CategoryCollectionViewCell: UICollectionViewCell {
     static let identifier = "CategoryCollectionViewCell"
     
     private let imageView: UIImageView = {

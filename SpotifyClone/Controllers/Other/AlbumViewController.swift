@@ -1,7 +1,6 @@
 import UIKit
 
-class AlbumViewController: UIViewController {
-    
+final class AlbumViewController: UIViewController {
     private var viewModels = [AlbumCollectionViewCellViewModel]()
     
     private var tracks = [AudioTrack]()

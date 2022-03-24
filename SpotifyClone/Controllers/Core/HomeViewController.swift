@@ -17,8 +17,7 @@ enum BrowseSectionType {
     }
 }
 
-class HomeViewController: UIViewController {
-    
+final class HomeViewController: UIViewController {
     private var newAlbums: [Album] = []
     private var playlists: [Playlist] = []
     private var tracks: [AudioTrack] = []

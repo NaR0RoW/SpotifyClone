@@ -1,7 +1,7 @@
-import UIKit
 import SafariServices
+import UIKit
 
-class SearchViewController: UIViewController, UISearchResultsUpdating, UISearchBarDelegate {
+final class SearchViewController: UIViewController, UISearchResultsUpdating, UISearchBarDelegate {
 
     let searchController: UISearchController = {
         let vc = UISearchController(searchResultsController: SearchResultsViewController())
@@ -59,7 +59,6 @@ class SearchViewController: UIViewController, UISearchResultsUpdating, UISearchB
             DispatchQueue.main.async {
                 switch result {
                 case .success(let categories):
-                    let first = categories.first!
                     self?.categories = categories
                     self?.collectionView.reloadData()
                 case .failure(let error):

@@ -1,8 +1,7 @@
 import SDWebImage
 import UIKit
 
-class SearchResultSubtitleTableViewCell: UITableViewCell {
-
+final class SearchResultSubtitleTableViewCell: UITableViewCell {
     static let identifier = "SearchResultSubtitleTableViewCell"
     
     private let label: UILabel = {

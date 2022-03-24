@@ -1,7 +1,6 @@
 import UIKit
 
-class PlaylistViewController: UIViewController {
-    
+final class PlaylistViewController: UIViewController {
     private let playlist: Playlist
     
     private var viewModels = [RecommendedTrackCellViewModel]()

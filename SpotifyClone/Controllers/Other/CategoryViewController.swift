@@ -1,7 +1,6 @@
 import UIKit
 
-class CategoryViewController: UIViewController {
-    
+final class CategoryViewController: UIViewController {
     let category: Category
     
     private let collectionView = UICollectionView(frame: .zero, collectionViewLayout: UICollectionViewCompositionalLayout(sectionProvider: { _, _ in
@@ -17,7 +16,6 @@ class CategoryViewController: UIViewController {
     }))
     
     //  MARK: - Init
-    
     private var playlists = [Playlist]()
     
     init(category: Category) {
@@ -30,7 +28,6 @@ class CategoryViewController: UIViewController {
     }
     
     //  MARK: - Lifecycle
-
     override func viewDidLoad() {
         super.viewDidLoad()
 

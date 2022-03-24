@@ -1,8 +1,7 @@
 import SDWebImage
 import UIKit
 
-class ProfileViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    
+final class ProfileViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     private let tableView: UITableView = {
         let tableView = UITableView()
         tableView.isHidden = true

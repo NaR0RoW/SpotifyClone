@@ -120,7 +120,7 @@ extension PlaybackPresenter: PlayerViewControllerDelegate {
             // Not playlist or album
             player?.pause()
             player?.play()
-        } else if let player = playerQueue {
+        } else if playerQueue != nil {
             playerQueue?.advanceToNextItem()
         }
     }

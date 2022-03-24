@@ -8,8 +8,7 @@ protocol PlayerViewControllerDelegate: AnyObject {
     func didSlideSlider(_ value: Float)
 }
 
-class PlayerViewController: UIViewController {
-    
+final class PlayerViewController: UIViewController {
     weak var dataSource: PlayerDataSource?
     weak var delegate: PlayerViewControllerDelegate?
     

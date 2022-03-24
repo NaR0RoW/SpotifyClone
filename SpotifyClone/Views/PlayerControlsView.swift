@@ -13,7 +13,6 @@ struct PlayerControlsViewModel {
 }
 
 final class PlayerControlsView: UIView {
-    
     private var isPlaying = true
     
     weak var delegate: PlayerControlsViewDelegate?

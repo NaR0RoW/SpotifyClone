@@ -14,7 +14,6 @@ final class APICaller {
     }
     
     //  MARK: - Albums
-    
     public func getAlbumDetails(for album: Album, completion: @escaping(Result<AlbumDetailsResponse, Error>) -> Void) {
         createRequest(with: URL(string: Constants.baseAPIURL + "/albums/" + album.id),
                       type: .GET
@@ -36,7 +35,6 @@ final class APICaller {
     }
     
     //  MARK: - Playlists
-    
     public func getPlaylistDetails(for playlist: Playlist, completion: @escaping(Result<PlaylistDetailsResponse, Error>) -> Void) {
         createRequest(with: URL(string: Constants.baseAPIURL + "/playlists/" + playlist.id),
                       type: .GET
@@ -87,7 +85,6 @@ final class APICaller {
     }
     
     //  MARK: - Browse
-    
     public func getNewReleases(completion: @escaping((Result<NewReleasesResponse, Error>)) -> Void) {
         createRequest(
             with: URL(string: Constants.baseAPIURL + "/browse/new-releases?limit=50"),

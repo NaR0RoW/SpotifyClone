@@ -9,8 +9,7 @@ protocol SearchResultsViewControllerDelegate: AnyObject {
     func didTapResult(_ result: SearchResult)
 }
 
-class SearchResultsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
+final class SearchResultsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     weak var delegate: SearchResultsViewControllerDelegate?
     
     private var sections: [SearchSection] = []
